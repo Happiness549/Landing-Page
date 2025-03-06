@@ -1,52 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100vh;
     height: 100vh;
 }
 .first-part{
     background-color: #1F2937;
-    height: 40vh;
-
-    
+    height: 60vh;
+    width:220vh
 }
 
+.mid-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.mid-img{
+    height: 150px;
+    width: 150px;
+    border: 4px solid blue;
+    border-radius: 20px;
+}
+.link-p{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: absolute;
+    top: 0;
+}
 .first-p{
-    text-align: center;
     color: #E5E7EB;
     font-size: 18px;
-    
-    
+    margin-top: 50px; 
+}
+
+.content{
+    margin-top: 150px;
+}
+
+.right-box{
+    background-color: gray;
+    height: 150px;
+    width: 500px;
+    justify-content: flex-end;
+    margin-left: 700px;
+   margin-bottom: 900px;
+}
+
+.right-item{
+    border: solid 4 px blue;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 9000px;
+}
+
+
+
+
+.right-p{
+    text-align: end;
+}
+.right{
+    align-items: center;
+    text-align: center;
+    width: 100px; 
+
 }
 
 button{
     background-color: #3882F6;
     color: white;
+    margin-left: 60px;
 }
-h3{
+.logo-header{
     font-size: 15px;
     color: #F9FAF8;
-    font-size: 20px;
-    
+    font-size: 24px;
+    display: flex;
 }
+
 h1{
     color: #F9FAF8;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 900;
+    margin-left: 60px;
+    position: relative;
+    top: -30;
 }
 
 .second-p{
     color: #E5E7EB;
+    font-size: 18px;
+    margin-left: 60px;
+    position: relative;
+    top: -30;
 
 }
 .second-part{
     color: #1F2937;
-    font-size: 12px;
-    font-weight: 900;
-    height: 20vh;
-    
-
+    height: 70vh;
+    width: 100vh;
 }
+
+.mid-p{
+    font-size: 14px;
+    margin-top: 20px; 
+    text-align: center;
+    color: #1f2937;
+    }
+.box{
+    text-align: center;
+}
+
+
+
 .button-2{
     width: 300px;
     height: 200px;
@@ -55,11 +129,18 @@ h1{
     Background-color: #E5E7EB;
     color: #1F2937;
     font-size: 15px;
+    margin-top: 30px;
     font-style: light italic;
-    height: 20vh;
+    height: 40vh;
     text-align: center;
-    
 }
+ .random-p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 20px;
+ }
 h5{
     text-align: center;
     font-weight: bold;
@@ -71,6 +152,7 @@ h5{
     height: 15vh;
     text-align: center;
     padding: 50px;
+    height: 35vh;
 
 }
 .button-3{
@@ -82,12 +164,11 @@ h5{
 }
 
 .last-part{
-    height: 10vh;
+    height: 7vh;
     background-color: #1F2937;
     color: white;
     height: 5vh;
     text-align: center;
-    padding: 5px;
-    
+    padding: 30px;
     
 }
